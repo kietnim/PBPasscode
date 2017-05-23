@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'PBPasscode'
   s.version          = '0.1.0'
-  s.summary          = 'An extension of LTHPasscodeViewController for PB's internal usage'.'
+  s.summary          = 'An extension of LTHPasscodeViewController for PB\'s internal usage.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -32,11 +32,11 @@ This extension overwrites the original LTHPasscodeViewController in order to uti
 
   s.source_files = 'PBPasscode/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'PBPasscode' => ['PBPasscode/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'Resources' => ['PBPasscode/Localizations/*']
+  }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

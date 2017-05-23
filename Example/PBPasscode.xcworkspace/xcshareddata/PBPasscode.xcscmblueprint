@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "BDA37584A152FA526394D6B955FD9A4E026BAD18",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3E02169055262138F7D692446C25677927AC13EE" : 9223372036854775807,
+    "BDA37584A152FA526394D6B955FD9A4E026BAD18" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E0863E92-BB95-42A5-918E-32231FE25F6A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3E02169055262138F7D692446C25677927AC13EE" : "PBLTHPasscodeViewController\/",
+    "BDA37584A152FA526394D6B955FD9A4E026BAD18" : "PBPasscode\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "PBPasscode",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/PBPasscode.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/rolandleth\/LTHPasscodeViewController.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3E02169055262138F7D692446C25677927AC13EE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kietnim\/PBPasscode.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BDA37584A152FA526394D6B955FD9A4E026BAD18"
+    }
+  ]
+}

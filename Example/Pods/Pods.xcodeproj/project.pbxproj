@@ -8,6 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		04E5D3FB700B5F7CD4C8640FA1299F02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		06CCDE131ED407DA009BD42D /* LTHKeychainUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 06CCDE121ED4079D009BD42D /* LTHKeychainUtils.h */; };
+		06CCDE141ED407E0009BD42D /* LTHKeychainUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 06CCDE121ED4079D009BD42D /* LTHKeychainUtils.h */; };
+		06CCDE151ED407E0009BD42D /* LTHKeychainUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 06CCDE121ED4079D009BD42D /* LTHKeychainUtils.h */; };
+		06CCDE171ED4080D009BD42D /* LTHKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 06CCDE161ED4080D009BD42D /* LTHKeychainUtils.m */; };
+		06CCDE181ED4080D009BD42D /* LTHKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 06CCDE161ED4080D009BD42D /* LTHKeychainUtils.m */; };
+		06CCDE191ED4080D009BD42D /* LTHKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 06CCDE161ED4080D009BD42D /* LTHKeychainUtils.m */; };
+		06CCDE1B1ED4087B009BD42D /* LTHPasscodeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 06CCDE1A1ED4087B009BD42D /* LTHPasscodeViewController.h */; };
+		06CCDE1C1ED4087B009BD42D /* LTHPasscodeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 06CCDE1A1ED4087B009BD42D /* LTHPasscodeViewController.h */; };
+		06CCDE1D1ED4087B009BD42D /* LTHPasscodeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 06CCDE1A1ED4087B009BD42D /* LTHPasscodeViewController.h */; };
+		06CCDE1F1ED4089C009BD42D /* LTHPasscodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06CCDE1E1ED4089C009BD42D /* LTHPasscodeViewController.m */; };
+		06CCDE201ED4089C009BD42D /* LTHPasscodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06CCDE1E1ED4089C009BD42D /* LTHPasscodeViewController.m */; };
+		06CCDE211ED4089C009BD42D /* LTHPasscodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06CCDE1E1ED4089C009BD42D /* LTHPasscodeViewController.m */; };
 		1144A2086CDC7686DBF9742BCA9E5A09 /* PBPasscode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A71B8742C03C1BA23DDA5F1D71942889 /* PBPasscode-dummy.m */; };
 		13785EAE7C27AB32E688EF0C20870B80 /* Pods-PBPasscode_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A49B67383CF964ADB79B281CD89BEE1E /* Pods-PBPasscode_Example-dummy.m */; };
 		42294C311224CA7489365C93988AEC38 /* PBPasscode-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 078B9839A0932068540F74E955211FF1 /* PBPasscode-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -15,7 +27,6 @@
 		97E4853660F14D565B13A9297910C8DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		B9B6A2E52BAE9EE5B6B8B887FDCB11F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		DE8922CA28D19EDFDEAAF128407A35FD /* Pods-PBPasscode_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B251FD0C188051BFB0E5F987D70F98B8 /* Pods-PBPasscode_Tests-dummy.m */; };
-		F18046AA33CD1E6EDE2647459C1D356E /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = C1692D82749C92BF5A379342C82684A9 /* ReplaceMe.m */; };
 		F9E363776F8402EE2BF720EB73D3260B /* Pods-PBPasscode_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C614256BB485FD1BA89EDFBC5DBA684A /* Pods-PBPasscode_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -32,35 +43,39 @@
 /* Begin PBXFileReference section */
 		02F08964F5F577269F59AD06B1524AB9 /* Pods-PBPasscode_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PBPasscode_Example-frameworks.sh"; sourceTree = "<group>"; };
 		041A272649A2C9E2CB7CD2F880A0E151 /* Pods-PBPasscode_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PBPasscode_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		064E2B051ED40C13007D2404 /* LTHPasscodeViewController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LTHPasscodeViewController.bundle; sourceTree = "<group>"; };
+		06CCDE121ED4079D009BD42D /* LTHKeychainUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTHKeychainUtils.h; sourceTree = "<group>"; };
+		06CCDE161ED4080D009BD42D /* LTHKeychainUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTHKeychainUtils.m; sourceTree = "<group>"; };
+		06CCDE1A1ED4087B009BD42D /* LTHPasscodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTHPasscodeViewController.h; sourceTree = "<group>"; };
+		06CCDE1E1ED4089C009BD42D /* LTHPasscodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTHPasscodeViewController.m; sourceTree = "<group>"; };
 		078B9839A0932068540F74E955211FF1 /* PBPasscode-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PBPasscode-umbrella.h"; sourceTree = "<group>"; };
-		0952DA5F9877E6AA3B1DB4A7655DBEE1 /* Pods_PBPasscode_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PBPasscode_Tests.framework; path = "Pods-PBPasscode_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0952DA5F9877E6AA3B1DB4A7655DBEE1 /* Pods_PBPasscode_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PBPasscode_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AC8A0F00FA2BA91951E3D2D4207FE44 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CD32C23DA7181E9B053AC2DE80D9262 /* Pods-PBPasscode_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PBPasscode_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3290D218D7B06969AB7EDB77118ACEA4 /* Pods-PBPasscode_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PBPasscode_Tests-umbrella.h"; sourceTree = "<group>"; };
-		389196286C35FA5ACB9F5D55F274B090 /* PBPasscode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PBPasscode.framework; path = PBPasscode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		389196286C35FA5ACB9F5D55F274B090 /* PBPasscode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PBPasscode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		41D45E0D80E7793A090FB80590E711DA /* Pods-PBPasscode_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PBPasscode_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4507207D28208CFF1517B8A0F215C9CE /* Pods-PBPasscode_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PBPasscode_Example.modulemap"; sourceTree = "<group>"; };
+		4507207D28208CFF1517B8A0F215C9CE /* Pods-PBPasscode_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PBPasscode_Example.modulemap"; sourceTree = "<group>"; };
 		4ECA653E6DEF3B28AD8C4A027B8C9855 /* Pods-PBPasscode_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PBPasscode_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5B64F8A2E798896962EFE4DEF3D47A12 /* PBPasscode.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PBPasscode.xcconfig; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		680F9B6C3B68AC16F30F276B49F1D893 /* Pods-PBPasscode_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PBPasscode_Tests.modulemap"; sourceTree = "<group>"; };
-		838BB43113EDA88B2F951F5F34755BE0 /* PBPasscode.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PBPasscode.modulemap; sourceTree = "<group>"; };
+		680F9B6C3B68AC16F30F276B49F1D893 /* Pods-PBPasscode_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PBPasscode_Tests.modulemap"; sourceTree = "<group>"; };
+		838BB43113EDA88B2F951F5F34755BE0 /* PBPasscode.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PBPasscode.modulemap; sourceTree = "<group>"; };
 		88F491B71CE87FB45CB9B2654096167F /* Pods-PBPasscode_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PBPasscode_Example-resources.sh"; sourceTree = "<group>"; };
 		8FD16470D75604FB2E5BAD6DA9EDC28C /* Pods-PBPasscode_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PBPasscode_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		92001FDAB46E70EC056DAB4F901143F6 /* Pods-PBPasscode_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PBPasscode_Tests-resources.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9450E9244F0E48074E839E6C180FBCB4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9645A6CFDE2795C950A129B6E1A6702A /* Pods-PBPasscode_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PBPasscode_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		A49B67383CF964ADB79B281CD89BEE1E /* Pods-PBPasscode_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PBPasscode_Example-dummy.m"; sourceTree = "<group>"; };
 		A71B8742C03C1BA23DDA5F1D71942889 /* PBPasscode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PBPasscode-dummy.m"; sourceTree = "<group>"; };
 		B251FD0C188051BFB0E5F987D70F98B8 /* Pods-PBPasscode_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PBPasscode_Tests-dummy.m"; sourceTree = "<group>"; };
-		C1692D82749C92BF5A379342C82684A9 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		C614256BB485FD1BA89EDFBC5DBA684A /* Pods-PBPasscode_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PBPasscode_Example-umbrella.h"; sourceTree = "<group>"; };
 		C97D4246375635BB3D1CA76009BD9540 /* PBPasscode-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PBPasscode-prefix.pch"; sourceTree = "<group>"; };
 		D45D5E6F769C603F1C5910D7B3402CFA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7736BD0F39E95FEA4EFFD8B37B60DC5 /* Pods-PBPasscode_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PBPasscode_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E3931F3CF30E09DAA6C8A83916128EF3 /* Pods-PBPasscode_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PBPasscode_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EA0EFE9B028B0372ACF325D4888F636A /* Pods_PBPasscode_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PBPasscode_Example.framework; path = "Pods-PBPasscode_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA0EFE9B028B0372ACF325D4888F636A /* Pods_PBPasscode_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PBPasscode_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD3B6AD537AD8EC1D3593BE46E5A73F /* Pods-PBPasscode_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PBPasscode_Tests-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,6 +107,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		064E2B041ED40C13007D2404 /* Localizations */ = {
+			isa = PBXGroup;
+			children = (
+				064E2B051ED40C13007D2404 /* LTHPasscodeViewController.bundle */,
+			);
+			name = Localizations;
+			path = ../../PBLTHPasscodeViewController/Localizations;
+			sourceTree = "<group>";
+		};
 		0CE3979A2BAFD9067F17023AB35775B2 /* Pods-PBPasscode_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -154,9 +178,9 @@
 		59DEBA447ABDAEE4DFCF2C5F3F333479 /* PBPasscode */ = {
 			isa = PBXGroup;
 			children = (
+				064E2B041ED40C13007D2404 /* Localizations */,
 				EA0925E8128146774381D255A757DE6F /* Classes */,
 			);
-			name = PBPasscode;
 			path = PBPasscode;
 			sourceTree = "<group>";
 		};
@@ -218,9 +242,11 @@
 		EA0925E8128146774381D255A757DE6F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				C1692D82749C92BF5A379342C82684A9 /* ReplaceMe.m */,
+				06CCDE121ED4079D009BD42D /* LTHKeychainUtils.h */,
+				06CCDE161ED4080D009BD42D /* LTHKeychainUtils.m */,
+				06CCDE1A1ED4087B009BD42D /* LTHPasscodeViewController.h */,
+				06CCDE1E1ED4089C009BD42D /* LTHPasscodeViewController.m */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -231,7 +257,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06CCDE1D1ED4087B009BD42D /* LTHPasscodeViewController.h in Headers */,
 				660E550378FEA232C2AEC8CC09A96D51 /* Pods-PBPasscode_Tests-umbrella.h in Headers */,
+				06CCDE151ED407E0009BD42D /* LTHKeychainUtils.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +267,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06CCDE1C1ED4087B009BD42D /* LTHPasscodeViewController.h in Headers */,
 				F9E363776F8402EE2BF720EB73D3260B /* Pods-PBPasscode_Example-umbrella.h in Headers */,
+				06CCDE141ED407E0009BD42D /* LTHKeychainUtils.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,7 +277,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06CCDE1B1ED4087B009BD42D /* LTHPasscodeViewController.h in Headers */,
 				42294C311224CA7489365C93988AEC38 /* PBPasscode-umbrella.h in Headers */,
+				06CCDE131ED407DA009BD42D /* LTHKeychainUtils.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,8 +371,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06CCDE1F1ED4089C009BD42D /* LTHPasscodeViewController.m in Sources */,
+				06CCDE171ED4080D009BD42D /* LTHKeychainUtils.m in Sources */,
 				1144A2086CDC7686DBF9742BCA9E5A09 /* PBPasscode-dummy.m in Sources */,
-				F18046AA33CD1E6EDE2647459C1D356E /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +381,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06CCDE211ED4089C009BD42D /* LTHPasscodeViewController.m in Sources */,
+				06CCDE191ED4080D009BD42D /* LTHKeychainUtils.m in Sources */,
 				DE8922CA28D19EDFDEAAF128407A35FD /* Pods-PBPasscode_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,6 +391,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06CCDE201ED4089C009BD42D /* LTHPasscodeViewController.m in Sources */,
+				06CCDE181ED4080D009BD42D /* LTHKeychainUtils.m in Sources */,
 				13785EAE7C27AB32E688EF0C20870B80 /* Pods-PBPasscode_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

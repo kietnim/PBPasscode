@@ -1,0 +1,22 @@
+{
+  "name": "PBPasscode",
+  "version": "0.1.0",
+  "summary": "A short description of PBPasscode.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Jie Nim/PBPasscode",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Jie Nim": "jie@getpocketbook.com"
+  },
+  "source": {
+    "git": "https://github.com/Jie Nim/PBPasscode.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PBPasscode/Classes/**/*"
+}

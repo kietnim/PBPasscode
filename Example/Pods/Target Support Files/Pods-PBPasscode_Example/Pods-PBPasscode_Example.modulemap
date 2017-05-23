@@ -1,0 +1,6 @@
+framework module Pods_PBPasscode_Example {
+  umbrella header "Pods-PBPasscode_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module PBPasscode {
+  umbrella header "PBPasscode-umbrella.h"
+
+  export *
+  module * { export * }
+}

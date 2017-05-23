@@ -1,0 +1,16 @@
+PODS:
+  - PBPasscode (0.1.0)
+
+DEPENDENCIES:
+  - PBPasscode (from `../`)
+
+EXTERNAL SOURCES:
+  PBPasscode:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PBPasscode: 3695c36af6d4ba09854f03d05cf1b135c2b04e8b
+
+PODFILE CHECKSUM: d1dcc8dd4d37b4ef0951a764f8ee42c36d373c25
+
+COCOAPODS: 1.2.1

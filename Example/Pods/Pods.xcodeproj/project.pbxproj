@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04E5D3FB700B5F7CD4C8640FA1299F02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1144A2086CDC7686DBF9742BCA9E5A09 /* PBPasscode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A71B8742C03C1BA23DDA5F1D71942889 /* PBPasscode-dummy.m */; };
+		13785EAE7C27AB32E688EF0C20870B80 /* Pods-PBPasscode_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A49B67383CF964ADB79B281CD89BEE1E /* Pods-PBPasscode_Example-dummy.m */; };
+		42294C311224CA7489365C93988AEC38 /* PBPasscode-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 078B9839A0932068540F74E955211FF1 /* PBPasscode-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		660E550378FEA232C2AEC8CC09A96D51 /* Pods-PBPasscode_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3290D218D7B06969AB7EDB77118ACEA4 /* Pods-PBPasscode_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97E4853660F14D565B13A9297910C8DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B9B6A2E52BAE9EE5B6B8B887FDCB11F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		DE8922CA28D19EDFDEAAF128407A35FD /* Pods-PBPasscode_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B251FD0C188051BFB0E5F987D70F98B8 /* Pods-PBPasscode_Tests-dummy.m */; };
+		F18046AA33CD1E6EDE2647459C1D356E /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = C1692D82749C92BF5A379342C82684A9 /* ReplaceMe.m */; };
+		F9E363776F8402EE2BF720EB73D3260B /* Pods-PBPasscode_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C614256BB485FD1BA89EDFBC5DBA684A /* Pods-PBPasscode_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37FADE50DCF071A2364F965ED0048E62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40B41D3E66A6909E5F62AAB303E39B5C;
+			remoteInfo = PBPasscode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02F08964F5F577269F59AD06B1524AB9 /* Pods-PBPasscode_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PBPasscode_Example-frameworks.sh"; sourceTree = "<group>"; };
+		041A272649A2C9E2CB7CD2F880A0E151 /* Pods-PBPasscode_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PBPasscode_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		078B9839A0932068540F74E955211FF1 /* PBPasscode-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PBPasscode-umbrella.h"; sourceTree = "<group>"; };
+		0952DA5F9877E6AA3B1DB4A7655DBEE1 /* Pods_PBPasscode_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PBPasscode_Tests.framework; path = "Pods-PBPasscode_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AC8A0F00FA2BA91951E3D2D4207FE44 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CD32C23DA7181E9B053AC2DE80D9262 /* Pods-PBPasscode_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PBPasscode_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3290D218D7B06969AB7EDB77118ACEA4 /* Pods-PBPasscode_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PBPasscode_Tests-umbrella.h"; sourceTree = "<group>"; };
+		389196286C35FA5ACB9F5D55F274B090 /* PBPasscode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PBPasscode.framework; path = PBPasscode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41D45E0D80E7793A090FB80590E711DA /* Pods-PBPasscode_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PBPasscode_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4507207D28208CFF1517B8A0F215C9CE /* Pods-PBPasscode_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PBPasscode_Example.modulemap"; sourceTree = "<group>"; };
+		4ECA653E6DEF3B28AD8C4A027B8C9855 /* Pods-PBPasscode_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PBPasscode_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5B64F8A2E798896962EFE4DEF3D47A12 /* PBPasscode.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PBPasscode.xcconfig; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		680F9B6C3B68AC16F30F276B49F1D893 /* Pods-PBPasscode_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PBPasscode_Tests.modulemap"; sourceTree = "<group>"; };
+		838BB43113EDA88B2F951F5F34755BE0 /* PBPasscode.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PBPasscode.modulemap; sourceTree = "<group>"; };
+		88F491B71CE87FB45CB9B2654096167F /* Pods-PBPasscode_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PBPasscode_Example-resources.sh"; sourceTree = "<group>"; };
+		8FD16470D75604FB2E5BAD6DA9EDC28C /* Pods-PBPasscode_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PBPasscode_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		92001FDAB46E70EC056DAB4F901143F6 /* Pods-PBPasscode_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PBPasscode_Tests-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9450E9244F0E48074E839E6C180FBCB4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9645A6CFDE2795C950A129B6E1A6702A /* Pods-PBPasscode_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PBPasscode_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A49B67383CF964ADB79B281CD89BEE1E /* Pods-PBPasscode_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PBPasscode_Example-dummy.m"; sourceTree = "<group>"; };
+		A71B8742C03C1BA23DDA5F1D71942889 /* PBPasscode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PBPasscode-dummy.m"; sourceTree = "<group>"; };
+		B251FD0C188051BFB0E5F987D70F98B8 /* Pods-PBPasscode_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PBPasscode_Tests-dummy.m"; sourceTree = "<group>"; };
+		C1692D82749C92BF5A379342C82684A9 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		C614256BB485FD1BA89EDFBC5DBA684A /* Pods-PBPasscode_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PBPasscode_Example-umbrella.h"; sourceTree = "<group>"; };
+		C97D4246375635BB3D1CA76009BD9540 /* PBPasscode-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PBPasscode-prefix.pch"; sourceTree = "<group>"; };
+		D45D5E6F769C603F1C5910D7B3402CFA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7736BD0F39E95FEA4EFFD8B37B60DC5 /* Pods-PBPasscode_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PBPasscode_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E3931F3CF30E09DAA6C8A83916128EF3 /* Pods-PBPasscode_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PBPasscode_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EA0EFE9B028B0372ACF325D4888F636A /* Pods_PBPasscode_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PBPasscode_Example.framework; path = "Pods-PBPasscode_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD3B6AD537AD8EC1D3593BE46E5A73F /* Pods-PBPasscode_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PBPasscode_Tests-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E1B0A17F2570E9DC9CE4504D9DC3256 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97E4853660F14D565B13A9297910C8DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD635FEA1258158FD00C926879586AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9B6A2E52BAE9EE5B6B8B887FDCB11F3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F57A0BA87F8F6AC37410F8CC915973A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E5D3FB700B5F7CD4C8640FA1299F02 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CE3979A2BAFD9067F17023AB35775B2 /* Pods-PBPasscode_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1AC8A0F00FA2BA91951E3D2D4207FE44 /* Info.plist */,
+				680F9B6C3B68AC16F30F276B49F1D893 /* Pods-PBPasscode_Tests.modulemap */,
+				E3931F3CF30E09DAA6C8A83916128EF3 /* Pods-PBPasscode_Tests-acknowledgements.markdown */,
+				1CD32C23DA7181E9B053AC2DE80D9262 /* Pods-PBPasscode_Tests-acknowledgements.plist */,
+				B251FD0C188051BFB0E5F987D70F98B8 /* Pods-PBPasscode_Tests-dummy.m */,
+				FAD3B6AD537AD8EC1D3593BE46E5A73F /* Pods-PBPasscode_Tests-frameworks.sh */,
+				92001FDAB46E70EC056DAB4F901143F6 /* Pods-PBPasscode_Tests-resources.sh */,
+				3290D218D7B06969AB7EDB77118ACEA4 /* Pods-PBPasscode_Tests-umbrella.h */,
+				041A272649A2C9E2CB7CD2F880A0E151 /* Pods-PBPasscode_Tests.debug.xcconfig */,
+				8FD16470D75604FB2E5BAD6DA9EDC28C /* Pods-PBPasscode_Tests.release.xcconfig */,
+			);
+			name = "Pods-PBPasscode_Tests";
+			path = "Target Support Files/Pods-PBPasscode_Tests";
+			sourceTree = "<group>";
+		};
+		19623E1C3AD62C8A401BEB8FA3487C70 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FAB00C42BDCC40D84A8E3C4D3BB1C67 /* Pods-PBPasscode_Example */,
+				0CE3979A2BAFD9067F17023AB35775B2 /* Pods-PBPasscode_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1E79A34E107605099DD27D953A6F541B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				389196286C35FA5ACB9F5D55F274B090 /* PBPasscode.framework */,
+				EA0EFE9B028B0372ACF325D4888F636A /* Pods_PBPasscode_Example.framework */,
+				0952DA5F9877E6AA3B1DB4A7655DBEE1 /* Pods_PBPasscode_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2099777C7F632E8C707EFE1A5C587FF0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE4FB369A6DE0272ACA637B2D38D236C /* PBPasscode */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		33C976772E5DC6D43F6AB68AEA9828C0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9450E9244F0E48074E839E6C180FBCB4 /* Info.plist */,
+				838BB43113EDA88B2F951F5F34755BE0 /* PBPasscode.modulemap */,
+				5B64F8A2E798896962EFE4DEF3D47A12 /* PBPasscode.xcconfig */,
+				A71B8742C03C1BA23DDA5F1D71942889 /* PBPasscode-dummy.m */,
+				C97D4246375635BB3D1CA76009BD9540 /* PBPasscode-prefix.pch */,
+				078B9839A0932068540F74E955211FF1 /* PBPasscode-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PBPasscode";
+			sourceTree = "<group>";
+		};
+		59DEBA447ABDAEE4DFCF2C5F3F333479 /* PBPasscode */ = {
+			isa = PBXGroup;
+			children = (
+				EA0925E8128146774381D255A757DE6F /* Classes */,
+			);
+			name = PBPasscode;
+			path = PBPasscode;
+			sourceTree = "<group>";
+		};
+		5FAB00C42BDCC40D84A8E3C4D3BB1C67 /* Pods-PBPasscode_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D45D5E6F769C603F1C5910D7B3402CFA /* Info.plist */,
+				4507207D28208CFF1517B8A0F215C9CE /* Pods-PBPasscode_Example.modulemap */,
+				D7736BD0F39E95FEA4EFFD8B37B60DC5 /* Pods-PBPasscode_Example-acknowledgements.markdown */,
+				9645A6CFDE2795C950A129B6E1A6702A /* Pods-PBPasscode_Example-acknowledgements.plist */,
+				A49B67383CF964ADB79B281CD89BEE1E /* Pods-PBPasscode_Example-dummy.m */,
+				02F08964F5F577269F59AD06B1524AB9 /* Pods-PBPasscode_Example-frameworks.sh */,
+				88F491B71CE87FB45CB9B2654096167F /* Pods-PBPasscode_Example-resources.sh */,
+				C614256BB485FD1BA89EDFBC5DBA684A /* Pods-PBPasscode_Example-umbrella.h */,
+				4ECA653E6DEF3B28AD8C4A027B8C9855 /* Pods-PBPasscode_Example.debug.xcconfig */,
+				41D45E0D80E7793A090FB80590E711DA /* Pods-PBPasscode_Example.release.xcconfig */,
+			);
+			name = "Pods-PBPasscode_Example";
+			path = "Target Support Files/Pods-PBPasscode_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				2099777C7F632E8C707EFE1A5C587FF0 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				1E79A34E107605099DD27D953A6F541B /* Products */,
+				19623E1C3AD62C8A401BEB8FA3487C70 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DE4FB369A6DE0272ACA637B2D38D236C /* PBPasscode */ = {
+			isa = PBXGroup;
+			children = (
+				59DEBA447ABDAEE4DFCF2C5F3F333479 /* PBPasscode */,
+				33C976772E5DC6D43F6AB68AEA9828C0 /* Support Files */,
+			);
+			name = PBPasscode;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		EA0925E8128146774381D255A757DE6F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C1692D82749C92BF5A379342C82684A9 /* ReplaceMe.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		317CF4AFADA1FC1746125C49ABC61A81 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660E550378FEA232C2AEC8CC09A96D51 /* Pods-PBPasscode_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DFA40E9399CB72D8F6A8D67C37B6A50 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9E363776F8402EE2BF720EB73D3260B /* Pods-PBPasscode_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE901EC43401B71BA3174A8809BF4AEC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42294C311224CA7489365C93988AEC38 /* PBPasscode-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		40B41D3E66A6909E5F62AAB303E39B5C /* PBPasscode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A57D3EEDFF837F44D7627C845AB12E7D /* Build configuration list for PBXNativeTarget "PBPasscode" */;
+			buildPhases = (
+				524A5096F7C8AF6DBD9333DF2D605F7D /* Sources */,
+				F57A0BA87F8F6AC37410F8CC915973A4 /* Frameworks */,
+				EE901EC43401B71BA3174A8809BF4AEC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PBPasscode;
+			productName = PBPasscode;
+			productReference = 389196286C35FA5ACB9F5D55F274B090 /* PBPasscode.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		49FBB5F27B08CB171B6642750B867EC1 /* Pods-PBPasscode_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02AED3F8B013C186FA30024DA61E370B /* Build configuration list for PBXNativeTarget "Pods-PBPasscode_Tests" */;
+			buildPhases = (
+				6CAFE386D02434245C209FB7463B2B1C /* Sources */,
+				1E1B0A17F2570E9DC9CE4504D9DC3256 /* Frameworks */,
+				317CF4AFADA1FC1746125C49ABC61A81 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PBPasscode_Tests";
+			productName = "Pods-PBPasscode_Tests";
+			productReference = 0952DA5F9877E6AA3B1DB4A7655DBEE1 /* Pods_PBPasscode_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B9AA58412F11758A97E80F3F4611664C /* Pods-PBPasscode_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D27393ABB33E98238955E0644CEBC8E /* Build configuration list for PBXNativeTarget "Pods-PBPasscode_Example" */;
+			buildPhases = (
+				F9B013EF7824BEF39BE1AFD026EF2E97 /* Sources */,
+				EFD635FEA1258158FD00C926879586AE /* Frameworks */,
+				5DFA40E9399CB72D8F6A8D67C37B6A50 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D643C05309886CC5503D67C796A091B /* PBXTargetDependency */,
+			);
+			name = "Pods-PBPasscode_Example";
+			productName = "Pods-PBPasscode_Example";
+			productReference = EA0EFE9B028B0372ACF325D4888F636A /* Pods_PBPasscode_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1E79A34E107605099DD27D953A6F541B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40B41D3E66A6909E5F62AAB303E39B5C /* PBPasscode */,
+				B9AA58412F11758A97E80F3F4611664C /* Pods-PBPasscode_Example */,
+				49FBB5F27B08CB171B6642750B867EC1 /* Pods-PBPasscode_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		524A5096F7C8AF6DBD9333DF2D605F7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1144A2086CDC7686DBF9742BCA9E5A09 /* PBPasscode-dummy.m in Sources */,
+				F18046AA33CD1E6EDE2647459C1D356E /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CAFE386D02434245C209FB7463B2B1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8922CA28D19EDFDEAAF128407A35FD /* Pods-PBPasscode_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9B013EF7824BEF39BE1AFD026EF2E97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13785EAE7C27AB32E688EF0C20870B80 /* Pods-PBPasscode_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D643C05309886CC5503D67C796A091B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PBPasscode;
+			target = 40B41D3E66A6909E5F62AAB303E39B5C /* PBPasscode */;
+			targetProxy = 37FADE50DCF071A2364F965ED0048E62 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		46B4711BF7E6E1D25C70764201A2B267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ECA653E6DEF3B28AD8C4A027B8C9855 /* Pods-PBPasscode_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PBPasscode_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PBPasscode_Example/Pods-PBPasscode_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PBPasscode_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4C722E0A772657960218834577B99BF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B64F8A2E798896962EFE4DEF3D47A12 /* PBPasscode.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PBPasscode/PBPasscode-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PBPasscode/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PBPasscode/PBPasscode.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PBPasscode;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6A24FF469B14668BB401748EF353A0AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41D45E0D80E7793A090FB80590E711DA /* Pods-PBPasscode_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PBPasscode_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PBPasscode_Example/Pods-PBPasscode_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PBPasscode_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		801FCEC4FE2BD4CE77AC133A179E94A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FD16470D75604FB2E5BAD6DA9EDC28C /* Pods-PBPasscode_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PBPasscode_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PBPasscode_Tests/Pods-PBPasscode_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PBPasscode_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		93055841E264DCCA6FF13901AE798C2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B64F8A2E798896962EFE4DEF3D47A12 /* PBPasscode.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PBPasscode/PBPasscode-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PBPasscode/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PBPasscode/PBPasscode.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PBPasscode;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AB02274CFBFEE1E487E3765F2C5A955B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 041A272649A2C9E2CB7CD2F880A0E151 /* Pods-PBPasscode_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PBPasscode_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PBPasscode_Tests/Pods-PBPasscode_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PBPasscode_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02AED3F8B013C186FA30024DA61E370B /* Build configuration list for PBXNativeTarget "Pods-PBPasscode_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB02274CFBFEE1E487E3765F2C5A955B /* Debug */,
+				801FCEC4FE2BD4CE77AC133A179E94A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D27393ABB33E98238955E0644CEBC8E /* Build configuration list for PBXNativeTarget "Pods-PBPasscode_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46B4711BF7E6E1D25C70764201A2B267 /* Debug */,
+				6A24FF469B14668BB401748EF353A0AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A57D3EEDFF837F44D7627C845AB12E7D /* Build configuration list for PBXNativeTarget "PBPasscode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C722E0A772657960218834577B99BF9 /* Debug */,
+				93055841E264DCCA6FF13901AE798C2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

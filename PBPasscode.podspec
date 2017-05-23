@@ -32,11 +32,11 @@ This extension overwrites the original LTHPasscodeViewController in order to uti
 
   s.source_files = 'PBPasscode/Classes/**/*'
   
-  s.resource_bundles = {
-    'Resources' => ['PBPasscode/Localizations/*']
-  }
+  # s.resource_bundles = {
+    # 'PBPasscode' => ['PBPasscode/Assets/*.png']
+  # }
 
-  s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

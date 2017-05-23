@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PBPasscode_Example' do
+  pod 'PBPasscode', :path => '../'
+
+  target 'PBPasscode_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

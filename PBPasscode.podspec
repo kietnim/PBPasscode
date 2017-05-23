@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PBPasscode'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'An extension of LTHPasscodeViewController for PB\'s internal usage.'
 
 # This description is used to generate tags and improve search results.
